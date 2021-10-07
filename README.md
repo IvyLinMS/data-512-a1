@@ -6,15 +6,15 @@ This is our first project of Data512 Human-Centered Data Science. Our goal is to
 Wikipedia traffic from 2008-2021
 
 # Data acquisition:
-The Legacy Pagecounts API (https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts) provides access to desktop and mobile traffic data from December 2007 through July 2016.
-The Pageviews API (https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month.
++ The Legacy Pagecounts API (https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts) provides access to desktop and mobile traffic data from December 2007 through July 2016.
++ The Pageviews API (https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month.
 
 5 Data files we get:
-pagecounts_desktop_file = 'pagecounts_desktop-site_200712-202108.json'
-pagecounts_mobile_file = 'pagecounts_mobile-site_200712-202108.json'
-pageview_desktop_file = 'pageviews_desktop_200712-202108.json'
-pageview_mobile_app_file = 'pageviews_mobile-app_200712-202108.json'
-pageview_mobile_web_file = 'pageviews_mobile-web_200712-202108.json'
++ pagecounts_desktop_file = 'pagecounts_desktop-site_200712-202108.json'
++ pagecounts_mobile_file = 'pagecounts_mobile-site_200712-202108.json'
++ pageview_desktop_file = 'pageviews_desktop_200712-202108.json'
++ pageview_mobile_app_file = 'pageviews_mobile-app_200712-202108.json'
++ pageview_mobile_web_file = 'pageviews_mobile-web_200712-202108.json'
 
 # Data processing:
 + Load data from json file into a data frame and do extra process for combination
