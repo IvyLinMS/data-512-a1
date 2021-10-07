@@ -35,8 +35,9 @@ Wikipedia traffic from 2008-2021
 Based on the final data csv file from previous step, I plotted the graph using Seaborn Lineplot, the 6 lines display the trending by 'PageCount - All traffic', 'PageCount - Desktop traffic', 'PageCount - Mobile traffic', 'PageView - All traffic', 'PageView - Desktop traffic', and 'PageView - Mobile traffic'.
 
 # Observation:
-As we can see from the graph, PageView - Destop traffic is going down in the trending, PageView - Mobile traffic keeps going up in the trending, then the overall traffic PageView stays almost the same, with a Spike between 2020-03 to 2020-06. 
+As we can see from the graph, PageView - Destop traffic is going down in the trending, PageView - Mobile traffic keeps going up in the trending, then the overall traffic PageView stays almost the same since July 2015, with a Spike between 2020-03 to 2020-06. 
 
 # Known issues:
-The Legacy Pagecounts API provides traffic data from December 2007 through July 2016, then the Pageviews API provides data to desktop, mobile web, and mobile app traffic data from July 2015 through last month.
++ The Legacy Pagecounts API provides traffic data from December 2007 through July 2016, then the Pageviews API provides data to desktop, mobile web, and mobile app traffic data from July 2015 through last month.
++ Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
 
